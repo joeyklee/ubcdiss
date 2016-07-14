@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: diss.aux
+A level-1 auxiliary file: source/_abstract.aux
+A level-1 auxiliary file: source/_preface.aux
+A level-1 auxiliary file: source/_acknowledgements.aux
+A level-1 auxiliary file: source/00_introduction.aux
+The style file: abbrvnat.bst
+A level-1 auxiliary file: appendix.aux
+Database file #1: biblio.bib
+Warning--I didn't find a database entry for ""
+You've used 6 entries,
+            2773 wiz_defined-function locations,
+            643 strings with 5958 characters,
+and the built_in function-call counts, 2924 in all, are:
+= -- 252
+> -- 165
+< -- 4
++ -- 57
+- -- 51
+* -- 254
+:= -- 461
+add.period$ -- 20
+call.type$ -- 6
+change.case$ -- 35
+chr.to.int$ -- 6
+cite$ -- 12
+duplicate$ -- 122
+empty$ -- 241
+format.name$ -- 59
+if$ -- 597
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 8
+newline$ -- 40
+num.names$ -- 24
+pop$ -- 67
+preamble$ -- 1
+purify$ -- 29
+quote$ -- 0
+skip$ -- 87
+stack$ -- 0
+substring$ -- 146
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 56
+warning$ -- 0
+while$ -- 24
+width$ -- 0
+write$ -- 89
+(There was 1 warning)

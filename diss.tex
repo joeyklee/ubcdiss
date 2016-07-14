@@ -279,36 +279,52 @@
 %% And include some of our own useful macros
 \input{macros}
 
+%%%
+% ---------- JOEY'S PACKAGES ---------- %
+	% Keeps all the figures from jumping into other section
+	\usepackage{placeins}
+	\usepackage{amsmath}
+	\usepackage{tabularx}
+	\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+	\usepackage{rotating}
+	\usepackage{upgreek}
+	\usepackage{longtable}
+	\usepackage{subcaption}
+	\usepackage{pdflscape}
+	\usepackage[letterpaper,left=1.25in,right=1in,bottom=1in,top=1in]{geometry}
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%
 %% Document meta-data: be sure to also change the \hypersetup information
 %%
 
-\title{On the Use of the \texttt{ubcdiss} Template}
+%---------------------------------------------------------------------------%
+%% ------------------------ Thesis Title --------------------- %%
+\title{The title of my thesis with only all lower case except for the first word}
 %\subtitle{If you want a subtitle}
 
-\author{Johnny Canuck}
-\previousdegree{B. Basket Weaving, University of Illustrious Arts, 1991}
-\previousdegree{M. Silly Walks, Another University, 1994}
+% Name
+\author{Jozo Texino}
+\previousdegree{BA, Previous Degree, Institution, YYYY}
 
-% What is this dissertation for?
-\degreetitle{Doctor of Philosophy}
-
+% Degree title
+\degreetitle{Master of Science}
 \institution{The University of British Columbia}
 \campus{Vancouver}
-
-\faculty{The Faculty of XXX}
-\department{Basket Weaving}
-\submissionmonth{April}
-\submissionyear{2192}
+\faculty{The Faculty of Graduate and Postdoctoral Studies}
+\department{Geography}
+\submissionmonth{August}
+\submissionyear{YYYY}
 
 %% hyperref package provides support for embedding meta-data in .PDF
 %% files
 \hypersetup{
-  pdftitle={Change this title!  (DRAFT: \today)},
-  pdfauthor={Johnny Canuck},
-  pdfkeywords={Your keywords here}
+pdftitle={The title of my thesis with only all lower case except for the first word (DRAFT: \today)},
+pdfauthor={Jozo Texino},
+pdfkeywords={key words, key words, key words, key words key words, key words, key words}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -327,67 +343,84 @@
 
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% From Thesis Components: Tradtional Thesis
-%% <http://www.grad.ubc.ca/current-students/dissertation-thesis-preparation/order-components>
+%---------------------------------------------------------------------------%
+% The document content
+%---------------------------------------------------------------------------%
 
-% Preliminary Pages (numbered in lower case Roman numerals)
-%    1. Title page (mandatory)
-\maketitle
+%% LaTeX's \includeonly commands causes any uses of \include{} to only
+%% include files that are in the list.  This is helpful to produce
+%% subsets of your thesis (e.g., for committee members who want to see
+%% the dissertation chapter by chapter).  It also saves time by 
+%% avoiding reprocessing the entire file.
+%\includeonly{intro,conclusions}
+%\includeonly{discussion}
 
-%    2. Abstract (mandatory - maximum 350 words)
-\include{abstract}
-\cleardoublepage
+	% 1. Title page (mandatory)
+	\maketitle
 
-%    3. Preface
-\include{preface}
-\cleardoublepage
+	% 2. Abstract (mandatory - maximum 350 words)
+	\include{source/_abstract}
+	\cleardoublepage
 
-%    4. Table of contents (mandatory - list all items in the preliminary pages
-%    starting with the abstract, followed by chapter headings and
-%    subheadings, bibliographies and appendices)
-\tableofcontents
-\cleardoublepage	% required by tocloft package
+	% 3. Preface
+	\include{source/_preface}
+	\cleardoublepage
 
-%    5. List of tables (mandatory if thesis has tables)
-\listoftables
-\cleardoublepage	% required by tocloft package
+	% 4. Table of contents (mandatory - list all items in the preliminary pages starting with the abstract, followed by chapter headings and subheadings, bibliographies and appendices)
+	\tableofcontents
+	\cleardoublepage	% required by tocloft package
 
-%    6. List of figures (mandatory if thesis has figures)
-\listoffigures
-\cleardoublepage	% required by tocloft package
+	% 5. List of tables (mandatory if thesis has tables)
+	\listoftables
+	\cleardoublepage	% required by tocloft package
 
-%    7. List of illustrations (mandatory if thesis has illustrations)
-%    8. Lists of symbols, abbreviations or other (optional)
+	% 6. List of figures (mandatory if thesis has figures)
+	\listoffigures
+	\cleardoublepage	% required by tocloft package
 
-%    9. Glossary (optional)
-\input{glossary}	% always input, since other macros may rely on it
+	% 7. List of illustrations (mandatory if thesis has illustrations)
+	% 8. Lists of symbols, abbreviations or other (optional)
 
-\textspacing		% begin one-half or double spacing
+	% 9. Glossary (optional)
+	\input{source/_glossary}	% always input, since other macros may rely on it
+	\input{source/_terms}
 
-%   10. Acknowledgements (optional)
-\include{ack}
+	\textspacing		% begin one-half or double spacing
 
-%   11. Dedication (optional)
+	% 10. Acknowledgements (optional)
+	\include{source/_acknowledgements}
 
-% Body of Thesis (not all sections may apply)
-\mainmatter
+	% 11. Dedication (optional)
 
-\acresetall	% reset all acronyms used so far
+	% Body of Thesis (not all sections may apply)
+	\mainmatter
 
-%    1. Introduction
-\include{intro}
+	\acresetall	% reset all acronyms used so far
+	
+	\chapter{hello}
+	\citet{lamport-1994-ladps}
+	
+	\citet{bringhurst-2002-teots}
+	
+	\citet{Crawford:2011ir}
+	
+	\citet{Lietzke:2011wd}
+	
+	Alex wrote a paper that says he's got big muscles \citealp{Christen:2011gu}
+	
+	Cam wrote a paper that says Deirdre can eat 10 pies \citep{Velasco:2010tg}
 
-%    2. Main body
-% Generally recommended to put each chapter into a separate file
-%\include{relatedwork}
-%\include{model}
-%\include{impl}
-%\include{discussion}
-%\include{conclusions}
+	% 1. Introduction
+	\include{source/00_introduction}
 
-%    3. Notes
-%    4. Footnotes
+	% 1. Methods
+	\input{source/01_methods}
+	% results
+	\input{source/02_results}
+	% discussion
+	\input{source/03_discussion}
+	% conclusion
+	\input{source/04_conclusion}
 
 %    5. Bibliography
 \begin{singlespace}

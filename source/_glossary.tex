@@ -1,0 +1,63 @@
+%% The following is a directive for TeXShop to indicate the main file
+%%!TEX root = diss.tex
+
+\chapter{Acronyms}
+
+% This glossary uses the handy \latexpackage{acroynym} package to automatically
+% maintain the glossary.  It uses the package's \texttt{printonlyused}
+% option to include only those acronyms explicitly referenced in the
+% \LaTeX\ source.
+
+% use \acrodef to define an acronym, but no listing
+\acrodef{UI}{user interface}
+\acrodef{UBC}{University of British Columbia}
+\acrodef{HVAC}{heating, ventilation, and air conditioning}
+\acrodef{GHG}{greenhouse gas}
+\acrodef{GHGs}{greenhouse gases}
+\acrodef{GIS}{geographic information systems}
+\acrodef{LIDAR}{light detection and ranging}
+\acrodef{UBL}{urban boundary layer}
+\acrodef{UCL}{urban canopy layer}
+\acrodef{RSL}{roughness sublayer}
+\acrodef{LCZ}{local climate zone}
+\acrodef{EC}{eddy covariance}
+\acrodef{IRGA}{infrared gas analyzer}
+\acrodef{PDT}{Pacific Daylight Savings Time}
+\acrodef{PST}{Pacific Standard Time}
+\acrodef{OSM}{OpenStreetMap}
+
+% The acronym environment will typeset only those acronyms that were
+% *actually used* in the course of the document
+\begin{acronym}
+\acrodef{HVAC}{heating hentilation and air conditioning}
+\acrodef{GHG}{greenhouse gas}
+\acrodef{GHGs}{greenhouse gases}
+\acrodef{GIS}{geographic information systems}
+\acrodef{LIDAR}{light detection and ranging}
+\acrodef{UBL}{urban boundary layer}
+\acrodef{UCL}{urban canopy layer}
+\acrodef{RSL}{roughness sublayer}
+\acrodef{LCZ}{local climate zone}
+\acrodef{EC}{eddy covariance}
+\acrodef{IRGA}{infrared gas analyzer}
+\acrodef{PDT}{Pacific Daylight Savings Time}
+\acrodef{PST}{Pacific Standard Time}
+\acrodef{OSM}{OpenStreetMap}
+
+\end{acronym}
+
+% You can also use \newacro{}{} to only define acronyms
+% but without explictly creating a glossary
+% 
+% \newacro{ANOVA}[ANOVA]{Analysis of Variance\acroextra{, a set of
+%   statistical techniques to identify sources of variability between groups.}}
+% \newacro{API}[API]{application programming interface}
+% \newacro{GOMS}[GOMS]{Goals, Operators, Methods, and Selection\acroextra{,
+%   a framework for usability analysis.}}
+% \newacro{TLX}[TLX]{Task Load Index\acroextra{, an instrument for gauging
+%   the subjective mental workload experienced by a human in performing
+%   a task.}}
+% \newacro{UI}[UI]{user interface}
+% \newacro{UML}[UML]{Unified Modelling Language}
+% \newacro{W3C}[W3C]{World Wide Web Consortium}
+% \newacro{XML}[XML]{Extensible Markup Language}
