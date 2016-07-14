@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 JUL 2016 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 JUL 2016 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -99,54 +99,20 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \@figprefixlen=\skip80
 \@tabprefixlen=\skip81
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/mathptmx.sty
-Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-\symbold=\mathgroup4
-\symitalic=\mathgroup5
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
-LaTeX Info: Redefining \hbar on input line 50.
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/courier.sty
-Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
@@ -214,7 +180,7 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count98
 \lst@gtempboxa=\box26
-\lst@token=\toks15
+\lst@token=\toks16
 \lst@length=\count99
 \lst@currlwidth=\dimen120
 \lst@column=\count100
@@ -250,7 +216,7 @@ Package: suffix 2006/07/15 1.5a Variant command support
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\AC@clearlist=\toks16
+\AC@clearlist=\toks17
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
@@ -278,7 +244,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \aftertitleunit=\skip85
 \ttl@plus=\dimen124
 \ttl@minus=\dimen125
-\ttl@toksa=\toks17
+\ttl@toksa=\toks18
 \titlewidth=\dimen126
 \titlewidthlast=\dimen127
 \titlewidthfirst=\dimen128
@@ -434,7 +400,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
+\@emptytoks=\toks19
 \ex@=\dimen140
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -464,21 +430,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \dotsspace@=\muskip11
 \c@parentequation=\count127
 \dspbrk@lvl=\count128
-\tag@help=\toks19
+\tag@help=\toks20
 \row@=\count129
 \column@=\count130
 \maxfields@=\count131
-\andhelp@=\toks20
+\andhelp@=\toks21
 \eqnshift@=\dimen143
 \alignsep@=\dimen144
 \tagshift@=\dimen145
 \tagwidth@=\dimen146
 \totwidth@=\dimen147
 \lineht@=\dimen148
-\@envbody=\toks21
+\@envbody=\toks22
 \multlinegap=\skip88
 \multlinetaggap=\skip89
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
@@ -489,7 +455,7 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen149
 \extrarowheight=\dimen150
-\NC@list=\toks23
+\NC@list=\toks24
 \extratabsurround=\skip90
 \backup@length=\skip91
 )
@@ -499,7 +465,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@target=\dimen154
 \TX@delta=\dimen155
 \TX@cols=\count132
-\TX@ftn=\toks24
+\TX@ftn=\toks25
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
@@ -507,7 +473,7 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rotFPtop=\skip92
 \rotFPbot=\skip93
 \rot@float@box=\box31
-\rot@mess@toks=\toks25
+\rot@mess@toks=\toks26
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
@@ -532,7 +498,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LT@rows=\count136
 \c@LT@tables=\count137
 \c@LT@chunks=\count138
-\LT@p@ftn=\toks26
+\LT@p@ftn=\toks27
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
@@ -560,7 +526,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen162
 \Gm@layouthoffset=\dimen163
 \Gm@layoutvoffset=\dimen164
-\Gm@dimlist=\toks27
+\Gm@dimlist=\toks28
 )
 (./diss.aux (./source/_abstract.aux) (./source/_preface.aux)
 (./source/_acknowledgements.aux) (./source/00_introduction.aux)
@@ -570,26 +536,21 @@ LaTeX Warning: Label `ch:Conclusion' multiply defined.
 (./appendix.aux))
 \openout1 = `diss.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 344.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
 
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count144
@@ -597,12 +558,12 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \scratchbox=\box36
 \nofMPsegments=\count145
 \nofMParguments=\count146
-\everyMPshowfont=\toks28
+\everyMPshowfont=\toks29
 \MPscratchCnt=\count147
 \MPscratchDim=\dimen166
 \MPnumerator=\count148
 \makeMPintoPDFobject=\count149
-\everyMPtoPDFconversion=\toks29
+\everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -629,8 +590,8 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box37
-Package backref Info: ** backref set up for natbib ** on input line 344.
-Package hyperref Info: Link coloring OFF on input line 344.
+Package backref Info: ** backref set up for natbib ** on input line 122.
+Package hyperref Info: Link coloring OFF on input line 122.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -640,9 +601,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count151
 )
-LaTeX Info: Redefining \ref on input line 344.
-LaTeX Info: Redefining \pageref on input line 344.
-LaTeX Info: Redefining \nameref on input line 344.
+LaTeX Info: Redefining \ref on input line 122.
+LaTeX Info: Redefining \pageref on input line 122.
+LaTeX Info: Redefining \nameref on input line 122.
 
 (./diss.out) (./diss.out)
 \@outlinefile=\write5
@@ -683,17 +644,13 @@ LaTeX Info: Redefining \nameref on input line 344.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 360.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 360.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 360.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 138.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 360.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
  [1
 
 
@@ -702,19 +659,13 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 \openout2 = `source/_abstract.aux'.
 
 
-(./source/_abstract.tex
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-) [2
+(./source/_abstract.tex) [2
 
 
 ]
 \openout2 = `source/_preface.aux'.
 
  (./source/_preface.tex
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-
 
 LaTeX Warning: Reference `' on page iii undefined on input line 5.
 
@@ -736,35 +687,16 @@ LaTeX Warning: Reference `' on page iii undefined on input line 11.
 
 
 ] (./diss.toc
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 1.
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 1.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 1.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write6
 \openout6 = `diss.toc'.
 
@@ -791,8 +723,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
 
 ]
-Missing character: There is no Â in font zptmcm7t!
-Missing character: There is no µ in font zptmcm7t!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no µ in font cmr10!
 
 Underfull \vbox (badness 10000) detected at line 30
  []
@@ -807,8 +739,6 @@ Underfull \vbox (badness 10000) detected at line 30
 
 ]
 Chapter 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 400.
 [1
 
 
@@ -818,7 +748,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 
  (./source/00_introduction.tex
 Chapter 2.
-<figures/Nyan_Cat_Wide.jpg, id=180, 1927.2pt x 1084.05pt>
+<figures/Nyan_Cat_Wide.jpg, id=192, 1927.2pt x 1084.05pt>
 File: figures/Nyan_Cat_Wide.jpg Graphic file (type jpg)
 
 <use figures/Nyan_Cat_Wide.jpg>
@@ -828,22 +758,27 @@ Package pdftex.def Info: figures/Nyan_Cat_Wide.jpg used on input line 9.
 
 
  <./figures/Nyan_Cat_Wide.jpg>]
-Overfull \hbox (1.96579pt too wide) in paragraph at lines 40--40
-[]|\OT1/ptm/m/n/10.95 Spatial 
+Overfull \hbox (5.00565pt too wide) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/10.95 Spatial 
  []
 
-[3]) [4] (./source/01_methods.tex
+
+Overfull \hbox (3.41081pt too wide) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/10.95 Atmospheric 
+ []
+
+[3] [4]) [5] (./source/01_methods.tex
 Chapter 3.
-) (./source/02_results.tex [5
+) (./source/02_results.tex [6
 
 
 ]
 Chapter 4.
-) (./source/03_discussion.tex [6
+) (./source/03_discussion.tex [7
 
 ]
 Chapter 5.
-) (./source/04_conclusion.tex [7
+) (./source/04_conclusion.tex [8
 
 ]
 Chapter 6.
@@ -851,67 +786,66 @@ Chapter 6.
 \tf@brf=\write9
 \openout9 = `diss.brf'.
 
- [8
+ [9
 
-]) [9
+]) [10
 
 ]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
 Appendix A.
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
-) [10
+) [11
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 444.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 444.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
  (./diss.aux (./source/_abstract.aux) (./source/_preface.aux)
 (./source/_acknowledgements.aux) (./source/00_introduction.aux) (./appendix.aux
 ))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 444.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 444.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
 Package rerunfilecheck Info: File `diss.out' has not changed.
 (rerunfilecheck)             Checksum: 6142AE04E1F327AAB1B37C22603A2D04;1016.
+Package rerunfilecheck Info: File `diss.brf' has not changed.
+(rerunfilecheck)             Checksum: 0CE221D5785778545279D952175FD405;338.
 
-
-Package rerunfilecheck Warning: File `diss.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `diss.brf':
-(rerunfilecheck)             Before: F58B81609843D6CA540A4FB8140E1521;243
-(rerunfilecheck)             After:  33DFC9CCDA87154E7D2E3A929377B7FF;289.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 444.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
  ) 
 Here is how much of TeX's memory you used:
- 11033 strings out of 493014
- 164623 string characters out of 6133351
- 283939 words of memory out of 5000000
- 14235 multiletter control sequences out of 15000+600000
- 35250 words of font info for 71 fonts, out of 8000000 for 9000
+ 10989 strings out of 493014
+ 163593 string characters out of 6133351
+ 283614 words of memory out of 5000000
+ 14213 multiletter control sequences out of 15000+600000
+ 13813 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,10n,41p,490b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (22 pages, 430857 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
+Output written on diss.pdf (23 pages, 510183 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 237 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
+ 307 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

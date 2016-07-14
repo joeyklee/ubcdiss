@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -6,15 +6,15 @@
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
 \bibitem[Bringhurst(2002)]{bringhurst-2002-teots}
-R.~Bringhurst.
+Bringhurst, R.
 \newblock \emph{The Elements of Typographic Style}.
 \newblock Hartley \& Marks, 2.5 edition, 2002.
 \newblock ISBN 0881791326.
 
 \bibitem[Christen et~al.(2011)Christen, Coops, Crawford, Kellett, Liss,
   Olchovski, Tooke, van~der Laan, and Voogt]{Christen:2011gu}
-A.~Christen, N.~C. Coops, B.~R. Crawford, R.~Kellett, K.~N. Liss, I.~Olchovski,
-  T.~R. Tooke, M.~van~der Laan, and J.~A. Voogt.
+Christen, A., Coops, N.~C., Crawford, B.~R., Kellett, R., Liss, K.~N.,
+  Olchovski, I., Tooke, T.~R., Laan, M., van~der, and Voogt, J.~A.
 \newblock {Validation of modeled carbon-dioxide emissions from an urban
   neighborhood with direct eddy-covariance measurements}.
 \newblock \emph{Atmospheric Environment}, 45\penalty0 (33):\penalty0
@@ -22,27 +22,33 @@ A.~Christen, N.~C. Coops, B.~R. Crawford, R.~Kellett, K.~N. Liss, I.~Olchovski,
 
 \bibitem[Crawford et~al.(2011)Crawford, Grimmond, and
   Christen]{Crawford:2011ir}
-B.~R. Crawford, C.~S.~B. Grimmond, and A.~Christen.
+Crawford, B.~R., Grimmond, C. S.~B., and Christen, A.
 \newblock {Five years of carbon dioxide fluxes measurements in a highly
   vegetated suburban area}.
 \newblock \emph{Atmospheric Environment}, 45\penalty0 (4):\penalty0 896--905,
   Feb. 2011.
 
+\bibitem[Kern et~al.(2008)Kern, Alber, Energy, and Policy]{kern2008governing}
+Kern, K., Alber, G., Energy, S., and Policy, C.
+\newblock Governing climate change in cities: modes of urban climate governance
+  in multi-level systems.
+\newblock \emph{Competitive Cities and Climate Change}, 171, 2008.
+
 \bibitem[Lamport(1994)]{lamport-1994-ladps}
-L.~Lamport.
+Lamport, L.
 \newblock \emph{\LaTeX: A Document Preparation System}.
 \newblock Addison-Wesley, 2 edition, 1994.
 \newblock ISBN 0201529831.
 
 \bibitem[Lietzke(2011)]{Lietzke:2011wd}
-B.~Lietzke.
+Lietzke, B.
 \newblock {Dynamik der urbanen $\rm{CO}_2$-Verteilung / Teil 1: Messungen in
   einer Strassenschlucht}.
 \newblock \emph{Regio Basiliensis - Basler Zeitschrift f{\"u}r Geographie},
   51\penalty0 (1):\penalty0 37.44, Jan. 2011.
 
 \bibitem[Velasco and Roth(2010)]{Velasco:2010tg}
-E.~Velasco and M.~Roth.
+Velasco, E. and Roth, M.
 \newblock {Cities as Net Sources of $\rm{CO}_2$: Review of Atmospheric
   $\rm{CO}_2$ Exchange in Urban Environments Measured by Eddy Covariance
   Technique}.
